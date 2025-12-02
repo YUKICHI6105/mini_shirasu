@@ -1235,11 +1235,14 @@
 </polygon>
 </symbol>
 <symbol name="PIN_HEADER">
-<rectangle x1="-2.54" y1="-7.62" x2="2.54" y2="7.62" layer="94"/>
-<pin name="P$1" x="2.54" y="5.08" length="middle"/>
-<pin name="P$2" x="2.54" y="2.54" length="middle"/>
-<pin name="P$3" x="2.54" y="0" length="middle"/>
-<pin name="P$4" x="2.54" y="-2.54" length="middle"/>
+<pin name="1" x="7.62" y="5.08" length="middle" rot="R180"/>
+<pin name="2" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="3" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="4" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1506,9 +1509,16 @@
 </deviceset>
 <deviceset name="PIN_HEADER">
 <gates>
+<gate name="G$1" symbol="PIN_HEADER" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="">
+<device name="PIN_HEADER" package="PIN_HEADER">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
