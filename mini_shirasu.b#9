@@ -4668,13 +4668,23 @@ design rules under a new name.</description>
 </signal>
 <signal name="UART_RX">
 <contactref element="U7" pad="43"/>
-<contactref element="U$2" pad="2"/>
-<wire x1="21.05" y1="33.9" x2="22.95" y2="43.4" width="0" layer="19" extent="1-16"/>
+<contactref element="U$2" pad="3"/>
+<via x="20.8202" y="35.6" extent="1-16" drill="0.35"/>
+<wire x1="21.05" y1="33.9" x2="20.931" y2="34.019" width="0.1524" layer="1"/>
+<wire x1="20.931" y1="34.019" x2="20.931" y2="34.5915875" width="0.1524" layer="1"/>
+<wire x1="20.931" y1="34.5915875" x2="20.8202" y2="34.7023875" width="0.1524" layer="1"/>
+<wire x1="20.8202" y1="34.7023875" x2="20.8202" y2="35.6" width="0.1524" layer="1"/>
+<wire x1="20.8202" y1="35.6" x2="20.8202" y2="43.0898" width="0.1524" layer="16"/>
+<wire x1="20.8202" y1="43.0898" x2="20.51" y2="43.4" width="0.1524" layer="16"/>
 </signal>
 <signal name="UART_TX">
 <contactref element="U7" pad="42"/>
-<contactref element="U$2" pad="3"/>
-<wire x1="21.55" y1="33.9" x2="20.51" y2="43.4" width="0" layer="19" extent="1-16"/>
+<contactref element="U$2" pad="2"/>
+<wire x1="21.55" y1="33.9" x2="21.55" y2="33.2644" width="0.1524" layer="1"/>
+<wire x1="21.55" y1="33.2644" x2="21.0856" y2="32.8" width="0.1524" layer="1"/>
+<via x="21.0856" y="32.8" extent="1-16" drill="0.35"/>
+<wire x1="21.0856" y1="32.8" x2="22.95" y2="34.6644" width="0.1524" layer="16"/>
+<wire x1="22.95" y1="34.6644" x2="22.95" y2="43.4" width="0.1524" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

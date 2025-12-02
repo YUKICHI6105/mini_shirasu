@@ -3389,7 +3389,6 @@ design rules under a new name.</description>
 <via x="9.1" y="23.9" extent="1-16" drill="0.35"/>
 <via x="9.9" y="23.9" extent="1-16" drill="0.35"/>
 <via x="22.7" y="21.5" extent="1-16" drill="0.35"/>
-<wire x1="16.86" y1="42.35" x2="17.6" y2="42.35" width="0.1524" layer="1"/>
 <contactref element="LED1" pad="2"/>
 <via x="9.4" y="30.7" extent="1-16" drill="0.35"/>
 <via x="12" y="31.7" extent="1-16" drill="0.35"/>
@@ -3953,11 +3952,10 @@ design rules under a new name.</description>
 <contactref element="J2" pad="1"/>
 <contactref element="U2" pad="6"/>
 <via x="19.385" y="42.075" extent="1-16" drill="0.35"/>
-<wire x1="17.02" y1="40.12" x2="13.275" y2="40.12" width="0.1524" layer="16"/>
+<wire x1="13.275" y1="40.12" x2="16.92" y2="40.12" width="0.1524" layer="16"/>
 <wire x1="13.275" y1="40.12" x2="12.975" y2="39.82" width="0.1524" layer="16"/>
 <wire x1="12.975" y1="39.32" x2="12.975" y2="39.82" width="0.1524" layer="16"/>
 <contactref element="R8" pad="1"/>
-<wire x1="18.975" y1="42.075" x2="17.02" y2="40.12" width="0.1524" layer="16"/>
 <wire x1="12.975" y1="39.32" x2="12.75" y2="39.095" width="0.1524" layer="16"/>
 <wire x1="12.75" y1="39.095" x2="12.75" y2="37.6" width="0.1524" layer="16"/>
 <wire x1="12.95" y1="37.4" x2="12.75" y2="37.6" width="0.1524" layer="16"/>
@@ -3966,10 +3964,8 @@ design rules under a new name.</description>
 <wire x1="20.6096875" y1="42.9214" x2="20.7436" y2="43.0553125" width="0.1524" layer="1"/>
 <wire x1="20.7436" y1="43.0553125" x2="20.7436" y2="43.2336" width="0.1524" layer="1"/>
 <wire x1="20.7436" y1="43.2336" x2="21.435" y2="43.925" width="0.1524" layer="1"/>
-<wire x1="18.975" y1="42.069" x2="18.99530625" y2="42.069" width="0.1524" layer="16"/>
-<wire x1="18.99530625" y1="42.069" x2="19.00130625" y2="42.075" width="0.1524" layer="16"/>
-<wire x1="19.00130625" y1="42.075" x2="19.385" y2="42.075" width="0.1524" layer="16"/>
-<wire x1="18.975" y1="42.075" x2="18.975" y2="42.069" width="0" layer="19" extent="16-16"/>
+<wire x1="18.875" y1="42.075" x2="19.385" y2="42.075" width="0.1524" layer="16"/>
+<wire x1="18.875" y1="42.075" x2="16.92" y2="40.12" width="0.1524" layer="16"/>
 </signal>
 <signal name="CAN_TX">
 <contactref element="U7" pad="46"/>
